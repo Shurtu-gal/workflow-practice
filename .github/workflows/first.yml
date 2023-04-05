@@ -1,5 +1,5 @@
 name: First Workflow
-run-name: ${{ github.sha }} | ${{github.actor}} is testing now. # This is the default value
+run-name: ${{ github.sha }} | ${{github.actor_id}} is testing now. # This is the default value
 on: 
  - push
 jobs:
